@@ -264,7 +264,7 @@ class FaceExpressionSticker:
             print("Error: Could not open camera!")
             return
         
-        print("\n🎭 Face Expression Sticker Detector Started!")
+        print("\n Face Expression Sticker Detector Started!")
         print("━" * 40)
         print("Expressions detected:")
         print("  😊 Happy - Smile")
@@ -350,12 +350,12 @@ class FaceExpressionSticker:
         
         cap.release()
         cv2.destroyAllWindows()
-        print("\n👋 Goodbye!")
+        print("\n Goodbye!")
 
 
 if __name__ == "__main__":
     # Your emoji folder path
-    EMOJI_FOLDER = r"C:\Users\arman\OneDrive\Desktop\Project Amrin\FaceExpressionDetector\emojis"
+    EMOJI_FOLDER = r"C:\Users\(YOUR PATH)\FaceExpressionDetector\emojis"
     
     # Create and run the detector
     detector = FaceExpressionSticker(EMOJI_FOLDER)
