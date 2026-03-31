@@ -1,4 +1,4 @@
-# Face Expression Sticker Overlay
+# Face Expression Detector using Python
 
 A real-time computer vision project that detects facial expressions and overlays matching stickers using OpenCV and MediaPipe.
 
